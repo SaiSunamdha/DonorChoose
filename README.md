@@ -18,8 +18,8 @@ pip install -r requirements.txt
 
 
 # Run training
-# Put your CSV at train/data.csv 
-python train/train_model.py
+1. Put your CSV at train/data.csv 
+2. python train/train_model.py
 
 ##  Run the API
 python -m waitress --port=8000 app.app:app
