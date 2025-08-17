@@ -2,21 +2,21 @@ donors-approval-service/
 
 
 
-├─ app/
-│  ├─ app.py                 # Flask API
-│  └─ model/
-│     ├─ model.joblib        # serialized pipeline (created by training)
-│     └─ meta.json           # feature lists & version info
-├─ train/
-│  └─ train_model.py         # trains and saves pipeline
-├─ requirements.txt
-└─ README.md                 # optional
+1. ├─ app/
+2. │  ├─ app.py                 # Flask API
+3. │  └─ model/
+4. │     ├─ model.joblib        # serialized pipeline (created by training)
+5. │     └─ meta.json           # feature lists & version info
+6. ├─ train/
+7. │  └─ train_model.py         # trains and saves pipeline
+8. ├─ requirements.txt
+9. └─ README.md                 # optional
 
 ## Create & activate a virtual environment
 
-python -m venv .venv
-.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
+1. python -m venv .venv
+2. .venv\Scripts\Activate.ps1
+3. pip install -r requirements.txt
 
 
 
